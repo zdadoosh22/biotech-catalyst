@@ -1,0 +1,76 @@
+# ==========================================
+# Credentials, Tokens & Security Secrets
+# ==========================================
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.pfx
+*.p12
+*.crt
+*credential*
+*secret*
+*token*
+auth*.json
+.pplx/
+.gemini/
+.copilot/
+.codex/
+
+# ==========================================
+# Sub-Repositories
+# ==========================================
+local-biz-scout/
+
+# ==========================================
+# IDE & System Files
+# ==========================================
+.idea/
+.vscode/
+.vscode-shared/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Python & Bytecode
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Temporary Files & Local Logs
+# ==========================================
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.log
+!research/synthesis/activity_logs/*.md
+*.sqlite
+*.sqlite3
+*.db
+!*.md
+!*.json
+!*.py
